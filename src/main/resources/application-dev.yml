@@ -1,0 +1,32 @@
+server: # 端口
+  port: 8080
+#logging: #日志
+#  level:
+#    com:
+#      dk: debug
+#  config: classpath:log/logback-dev.xml
+spring:
+  thymeleaf: #关闭缓存
+    cache: false
+#  redis:
+#    host: 127.0.0.1
+#    port: 6379
+#    value-serializer:
+#rocketmq:
+#  name-server: 127.0.0.1:9876
+#dubbo:
+#  application:
+#    name: dongdongshop_freemarker_service
+#  registry:
+#    address: 127.0.0.1:2181
+#    protocol: zookeeper
+#  consumer:
+#    check: false
+#    timeout: 200000000
+#freemaker:
+#  templateLoaderPath: classpath:freemarket
+#  defaultEncoding: utf-8
+#  outDir: E://static/dongdongshop/
+
+
+
